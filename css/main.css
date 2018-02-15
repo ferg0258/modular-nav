@@ -13,6 +13,8 @@ html {
   text-size-adjust: 100%;
 
   font-family: sans-serif;
+  display: inline-block;
+  text-align: center;
 }
 
 *, *::before, *::after {
@@ -25,9 +27,10 @@ h1 {
 
 nav {
   color: #0074d9;
+  text-decoration: none;
 }
 
-nav:hover {
+a:hover {
   background-color: #0074d9;
   color: #fff;
 }
