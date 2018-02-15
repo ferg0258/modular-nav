@@ -18,3 +18,16 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+h1 {
+  background-color: #e2e2e2;
+}
+
+nav {
+  color: #0074d9;
+}
+
+nav:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
