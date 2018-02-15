@@ -11,21 +11,24 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
   font-family: sans-serif;
-  display: inline-block;
-  text-align: center;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-h1 {
+body {
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+}
+
+header {
   background-color: #e2e2e2;
 }
 
-nav {
+a {
   color: #0074d9;
   text-decoration: none;
 }
