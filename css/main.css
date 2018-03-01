@@ -24,15 +24,15 @@ body {
 
 header {
   background-color: #e2e2e2;
-  display: inline-block;
   text-align: center;
 }
 
-ul {
+li {
   list-style-type: none;
+  display: inline-block;
 }
 
-  a {
+a {
   color: #0074d9;
   text-decoration: none;
 }
