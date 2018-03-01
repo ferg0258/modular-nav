@@ -20,15 +20,17 @@ html {
 
 body {
   margin: 0;
-  display: inline-block;
-  text-align: center;
 }
 
 header {
   background-color: #e2e2e2;
 }
 
-a {
+ul {
+  list-style-type: none;
+}
+
+  a {
   color: #0074d9;
   text-decoration: none;
 }
@@ -36,4 +38,12 @@ a {
 a:hover {
   background-color: #0074d9;
   color: #fff;
+}
+
+@media only screen and (min-width: 90em) {
+
+  body {
+    text-align: left;
+  }
+
 }
