@@ -24,6 +24,8 @@ body {
 
 header {
   background-color: #e2e2e2;
+  display: inline-block;
+  text-align: center;
 }
 
 ul {
